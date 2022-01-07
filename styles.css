@@ -1,3 +1,48 @@
 body {
-    background-color: rgb(238, 241, 243);
+   
+}
+h1 {
+    color: #9381FF;
+    text-align: center;
+}
+.color-panel {
+    width: 100%;
+}
+.color-panel .box-color {
+    width: 20%;
+    height: 600;
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+
+.color-panel .medium-purple {
+    background-color: #9381FF;
+}
+.color-panel .max-blue-purple {
+    background-color: #B8B8FF;
+}
+.color-panel .ghost-white {
+    background-color: #F8F7FF;
+}
+.color-panel .antique-white {
+    background-color: #FFEEDD;
+}
+.color-panel .unbleached-silk {
+    background-color: #FFD8BE;
+}
+
+.color-panel .box-color .text-color {
+    margin-top: 500px;
+    text-align: center;
+}
+
+
+
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #FFD8BE;
+    padding: 10px;
 }
