@@ -1,12 +1,23 @@
 body {
-   
+   padding: 0px;
+   margin: 0px;
 }
-h1 {
-    color: #9381FF;
+
+header {
+    background-color: #9381FF;
+    color: white;
+    width: 100%;
+    padding: 10px;
     text-align: center;
 }
+section {
+   
+}
+
 .color-panel {
     width: 100%;
+   
+    position: relative;
 }
 .color-panel .box-color {
     width: 20%;
@@ -14,6 +25,10 @@ h1 {
     display: inline-block;
     position: relative;
     float: left;
+}
+
+.color-panel .box-color .text-color p {
+    color:rgb(82, 80, 80)
 }
 
 .color-panel .medium-purple {
