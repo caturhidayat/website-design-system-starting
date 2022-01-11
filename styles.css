@@ -117,7 +117,7 @@ h2 {
     height: 600px;
     display: inline-block;
     /* position: relative; */
-    float: left;
+    /* float: left; */
 }
 
 .container .box-color .text-color p {
@@ -150,12 +150,12 @@ h2 {
     position: relative;
     float: left;
 }
-.container
 
 
-.container .font li {
 
-}
+/* .container .font li {
+
+} */
 
 
 
